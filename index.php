@@ -8,30 +8,35 @@
     </head>
     
     <body>
-        <div id="bloc_page">
+        
             <header>
-                <img src="">
-                <h1>WILD CIRCUS</h1>
-    
-                <navbar>
+                <div class="bandeau_res">CONTACT US</div>
+                <div class="logo"><img src="images/logo_wc.png"></div>                 
+            </header>
+        
+            <div class="bloc_page">
+            <navbar>
                 <ul>
                     <li><a href="*">HOME</a></li>
                     <li><a href="*">PERFORMANCES</a></li>
                     <li><a href="*">CONTACT</a></li>
                 </ul>
-            </navbar>    
-            </header> 
-    
-        <div id="performance_program">
-            <h1>Performances program</h1>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div> 
+            </navbar>  
         
-    <footer>
-    </footer>    
+            <section>
+                <div id="performance_program">
+                <h2>Performances program</h2>
+                    <div class="first_performance"></div>
+                    <div class="second_performance"></div>
+                    <div class="third_performance"></div>
+                </div>
+            </section>    
+                
         
-    </div>
+            <footer>
+        
+            </footer>    
+        
+            </div>
     </body>    
 </html>
