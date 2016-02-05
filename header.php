@@ -9,10 +9,10 @@
     </head>
     
     <body>
-        
+        <div class="container">
             <header>
                 <div class="bandeau_top">
-                    <div class="bandeau_res"><a href="*">ARTIST ACCESS</a></div>
+                    <div class="bandeau_res"><a href="private_access.php"><img src="images/private_acces.png"/></a></div>
                     <div class="cont_res">
                         <a href="https://www.facebook.com/wildcodeschool/" target="_blank"><img src="images/facebook.png"/></a>
                         <a href="https://twitter.com/wildcodeschool" target="_blank"><img src="images/twitter.png"/></a>
