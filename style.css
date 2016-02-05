@@ -1,5 +1,7 @@
 body {
-    height: auto;
+    height: 100%;
+    width: 1600px;
+    margin: 0 auto;
     background-color: #0e0b2a;
 }
 
@@ -17,9 +19,9 @@ body {
     font-family: 'Cantata One', serif;
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 150px;
-    padding-top: 5px;
-    padding-left: 5px;
+    margin-left: 100px;
+    padding-top: 7px;
+    padding-left: 7px;
     width : 190px;
     height: 35px;
     display: inline-block;
@@ -35,22 +37,46 @@ body {
 
 .cont_res {
     display: inline-block;
+    position:absolute;
     height: 40px;
     margin-top: 15px;
-    margin-left: 1900px;
+    margin-left: 1220px;
 }
 
+.cont_res a {
+    margin-left: 15px;
+}
 
 header {
-    width: 110%;
-    background-image: url(images/ciel.png);
-    margin-left: -10px;   
+    width: 100%;
+    background-image: url(images/ciel.png);   
 }
 
 .logo {
-    width: 700px;
+    position: relative;
+    width: 450px;
     margin: 0 auto;
-    margin-top: -80px;
+    display: block;
+}
+
+.logo img {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+navbar {
+    width: 1600px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    border-top: 4px solid #f2f1a8;
+}
+
+navbar a {
+    text-decoration: none;
+    color: #f2f1a8;
 }
 
 navbar a:active {
@@ -59,36 +85,37 @@ navbar a:active {
 
 ul {
     margin-top: 0px;
-    margin-left: -500px;
-    text-align: center;
+    margin-left: 0px;
+    padding-top: 10px;
+    width: 1600px;
+    height: 50px;
+    display:inline-block;
     background: #0e0b2a;
     opacity: 0.7
+        
 }
 
 li {
+    width:auto;
     position: relative;
-    display: inline;
+    display: inline-block;
     margin: 0 auto;
     margin-left: 200px;
     font-size: 30px;
     font-family: 'Cantata One', serif;
 }
 
-navbar a {
-    text-decoration: none;
-    margin-left: 50px;    
-    color: #f2f1a8;
-}
+
 
 a:hover {
     color: #e3e13b;   
 }
 
+/* Section Générale */
 .bloc_page  {
     position: absolute;
     margin: 0 auto;
-    padding-left: 60px;
-    width: 100%;
+    width: 1600px;
     height: 100%;
     background-image:url(images/smoke-effect.png);
     background-repeat: no-repeat;
@@ -100,4 +127,37 @@ h1 {
     color: #f2f1a8;
     text-align: center;
     margin-left: -130px;
+}
+
+section {
+    height: auto;
+    width: 1600px;
+    
+}
+
+/* Footer */
+
+.cont_foot {
+    position: fixed;
+    width: 1600px;
+    height: 210px;
+    margin-top: auto;
+    bottom: 0px;
+}
+
+.bandeau_footer {
+    width: 1600px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 4px solid #f2f1a8;
+    background: #0e0b2a;
+    opacity: 0.7;
+}
+
+.contenu_footer {
+    position: absolute;
+    background-image: url(images/ciel.png);
+    height: 100%;
+    width: 1600px;
 }
