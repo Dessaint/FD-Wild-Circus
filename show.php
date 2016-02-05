@@ -5,7 +5,7 @@ require("header.php")
         
             <section>
                 <div id="performance_program">
-                <h1>Current performances program</h1>
+                <h1>Show must go on</h1>
                     <div class="first_performance"></div>
                     <div class="second_performance"></div>
                     <div class="third_performance"></div>
