@@ -180,3 +180,10 @@ section {
     height: 100%;
     width: 1600px;
 }
+
+/* Page private access*/
+
+#private_access {
+    color: #f2f1a8;
+    
+}

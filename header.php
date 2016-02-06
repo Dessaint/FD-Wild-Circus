@@ -3,6 +3,7 @@
     <head>
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/logo_wc.ico">
     <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>    
     
     <title>Wild Circus</title>
