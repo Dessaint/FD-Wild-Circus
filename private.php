@@ -13,11 +13,13 @@ require("header.php")
     {
         echo 'Welcome ' .$_POST['nom']. ' in the artits private access.'
     // On affiche les codes
-    ?>                     
-        <div class="cont_private">
-        <p>Her you will find many specific practical informations.</p>
+    ?>  
+        <div class="cont_contenu">             
+            <div class="cont_private">
+            <p>Her you will find many specific practical informations.</p>
             
-        <p></p>
+            <p></p>
+            </div>  
         </div>    
         <?php
     }

@@ -56,8 +56,9 @@ header {
 }
 
 .logo img {
-    width: 450px;
+    width: auto;
     margin: 0 auto;
+    margin-left: 80px;
 }
 
 /* Navbar */
@@ -147,13 +148,37 @@ section {
     height: 60px;
     display: block;
     margin: 0 auto;
-    width: auto;
+    width: 450px;
     font-size: 15px;
-    margin-top: -10px;
-    margin-left: 10px;
+    margin-top: 385px;
+    margin-left: 565px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
+
+.texte_bandeau_spec {
+    position :absolute;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    font-size: 15px;
+    margin-top: 185px;
+    margin-left: 565px;
+    padding: 10px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_bandeau_spec h1{
+    border: 5px solid #0e0b2a;
+    border-radius: 30px;
+    background: white;
+    width : 1600;
+    padding : 10px;
+    color: #0e0b2a;
+    text-align: center;
+}
+
 
 .texte_bandeau h1 {
     border: 5px solid #0e0b2a;
@@ -172,7 +197,17 @@ section {
     position: relative;
     display: block;
     width: 1600px;
-    height: 450px;
+    height: auto;
+    padding-bottom: 30px;
+   
+}
+
+.cont_contenu_mp {
+    padding-top: 200px;
+    position: relative;
+    display: block;
+    width: 1600px;
+    height: 560px;
 }
 
 .astuce_clown {
@@ -222,6 +257,118 @@ section {
     margin-top: -40px;
     text-align: center;
 }
+
+/* Pages performance*/
+
+.img_performance {
+    width: 432px;
+    height: 287px;
+    border: 6px solid white;
+    display :inline-block;
+}
+
+.text_performance {
+    display: inline-block;
+    width: 432px;
+    height: 287px;
+    background: white;
+    border: 6px solid #0e0b2a;
+    margin-bottom: -6px;
+    margin-left: 134px;
+}
+
+.artist_performance {
+    display: inline-block;
+    position: relative;
+    width: 432px;
+    height: 120px;
+    margin-left: 60px;
+    top: -80px;
+}
+
+.artist_performance img {
+    margin-left: 70px;
+}
+
+.scroll {
+    width: 1600px;
+    margin-top: 20px ;
+    margin-left: 725px;
+}
+
+.next_forward {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.next {
+   display: inline-block;
+}
+
+.forward {
+   display: inline-block; 
+}
+
+/* Page show */
+
+.cont_section_bis {
+    height: 600px;
+    margin-top: -260px;
+    display: block;
+}
+
+.cont_section_bis .cont_contenu {
+    padding-top: 270px;
+    margin-top: 0px;    
+}
+
+.cont_section_bis .cont_contenu .text_performance {
+    margin-bottom: -7px;
+    margin-top: 0px;
+}
+
+.cont_section_bis .cont_contenu .artist_performance {
+    top: -60px;
+}
+
+.texte_show {
+    margin-top: -45px;
+    height: 45px;
+    width: 435px;
+    position: absolute;
+    background: white;
+    font-size: 20px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_show h1 {
+    margin-top: 5px;
+    color: #0e0b2a;
+}
+/* Page artist */
+
+.fiche_artist {
+    display: inline-block;
+    margin-left: 95px;
+    margin-top: 15px;
+    width: auto;
+    height: 380px;
+}
+
+.img_artist {
+    height: 50%;
+}
+
+.text_artist {
+    background: white;
+    width: 270px;
+    height: 40%;
+    display:inline-block;
+    margin-top: 70px;
+    border: 6px solid #0e0b2a;
+}
+
+/* Page contact */
 
 /* Footer */
 
@@ -282,5 +429,5 @@ section {
 .mot_passe {
     position: absolute;
     display: block;
-    margin-top: 450px;
+    margin-top: 250px;
 }
