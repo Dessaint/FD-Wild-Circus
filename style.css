@@ -122,7 +122,6 @@ a:hover {
 h1 {
     color: #f2f1a8;
     text-align: center;
-    margin-left: -130px;
 }
 
 section {
@@ -130,6 +129,42 @@ section {
     width: 1600px;
     
 }
+
+/* Section bandeau*/
+
+.section_bandeau {
+  position: relative;  
+}
+
+.cont_bandeau {
+    position:absolute;
+    display: block;  
+    width: auto;
+}
+
+.texte_bandeau {
+    position :absolute;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_bandeau h1 {
+    border: 5px solid #0e0b2a;
+    border-radius: 30px;
+    background: white;
+    width : 1600;
+    padding : 10px;
+    color: #0e0b2a;
+    text-align: center;
+}
+
 
 /* Footer */
 
@@ -184,6 +219,11 @@ section {
 /* Page private access*/
 
 #private_access {
-    color: #f2f1a8;
-    
+    color: #f2f1a8;   
+}
+
+.mot_passe {
+    position: absolute;
+    display: block;
+    margin-top: 450px;
 }

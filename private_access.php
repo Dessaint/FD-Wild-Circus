@@ -4,9 +4,10 @@ require("header.php")
 
         
             <section>
-                <div id="private_access">
-                <h1>Artists private acces</h1>
-                    
+                <div class="cont_section">
+                    <div class="cont_bandeau"><img src="images/bandeau_private0.jpg"></div>
+                    <div class="texte_bandeau"><h1>Artists private acces</h1></div>
+                </div>   
                 <div class="mot_passe">
         <p>In order to access the artists area, thank you to enter the password that was provided to you</p>
         
@@ -20,7 +21,7 @@ require("header.php")
             </p>
         </form>   
                 </div>    
-                </div>
+                
             </section>    
                 
 <?php

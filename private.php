@@ -5,7 +5,8 @@ require("header.php")
         
             <section>
                 <div id="private_access">
-                <h1>Artists private acces</h1>
+                    <div class="cont_bandeau"><img src="images/bandeau_private.jpg"></div>
+                    <div class="texte_bandeau"><h1>Artists private acces</h1></div>
                     
                 <?php
     if (isset($_POST['password']) AND $_POST['password'] ==  "wild") // Si le mot de passe est bon
@@ -14,7 +15,8 @@ require("header.php")
     // On affiche les codes
     ?>                     
         <div class="cont_private">
-        <p>Her you will find many specific practical informations.</p>   
+        <p>Her you will find many specific practical informations.</p>
+            
         <p></p>
         </div>    
         <?php
