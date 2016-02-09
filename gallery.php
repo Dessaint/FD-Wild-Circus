@@ -11,6 +11,7 @@ require("header.php")
                         <div class="second_picture"></div>
                         <div class="third_picture"></div>
                     </div>
+                <div class="cont_contenu"> </div>
             </section>    
                 
 <?php

@@ -112,11 +112,11 @@ a:hover {
     position: absolute;
     margin: 0 auto;
     width: 1600px;
-    height: 100%;
+    height: auto;
     background-image:url(images/smoke-effect.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: cover;
 }
 
 h1 {
@@ -148,7 +148,7 @@ section {
     display: block;
     margin: 0 auto;
     width: auto;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: -10px;
     margin-left: 10px;
     padding: 10px;
@@ -165,11 +165,68 @@ section {
     text-align: center;
 }
 
+/* Page home */
+
+.cont_contenu {
+    padding-top: 500px;
+    position: relative;
+    display: block;
+    width: 1600px;
+    height: 450px;
+}
+
+.astuce_clown {
+    width: 150px;
+    height:175px;
+    display: inline-block;
+    top: -60px;
+    position: relative;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.first_performance {
+    width: 400px;
+    height: 400px;    
+    display: inline-block;
+    border: 6px solid white;
+    margin-left: 0px;
+}
+
+.second_performance {
+    width: 400px;
+    height: 400px;    
+    display: inline-block;
+    border: 6px solid white;
+    margin-left: ;
+}
+
+.third_performance {
+    width: 400px;
+    height: 400px;    
+    display: inline-block;
+    border: 6px solid white;
+    margin-left: ;
+}
+
+.performance_text {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 40px;
+    background: white;
+    border: 0px solid white;
+    color: #0e0b2a;
+    font-size: 27px;
+    font-family: 'Cantata One', serif;
+    margin-top: -40px;
+    text-align: center;
+}
 
 /* Footer */
 
 .cont_foot {
-    position: fixed;
+    position: relative;
     width: 1600px;
     height: 210px;
     margin-top: auto;

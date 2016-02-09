@@ -8,6 +8,7 @@ require("header.php")
                     <div class="cont_bandeau"><img src="images/bandeau_contact.jpg"/></div>    
                     <div class="texte_bandeau"><h1>Contact us</h1></div>   
                 </div>
+                <div class="cont_contenu"> </div>
             </section>    
                 
 <?php
