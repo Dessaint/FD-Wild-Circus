@@ -49,7 +49,20 @@ require("header.php")
                             <a href="artists.php"><img src="images/freestyle_bike_artist2_small.png"/></a>
                         </div> 
                         </div>
-                    </div>        
+                    </div> 
+                    
+                    <div class="cont_section_bis"> 
+                        <div class="cont_contenu">    
+                            <div class="img_performance">
+                            <img src="images/clown_astuce1.jpg"/>
+                            <div class="texte_show"><h1>~ Clown Astuce ~</h1></div> 
+                        </div>   
+                        <div class="text_performance"></div>
+                        <div class="artist_performance">
+                            <a href="artists.php"><img src="images/clown_astuce_small.png"/></a>
+                        </div> 
+                        </div>
+                    </div>    
                 </div>
             </section>    
                 
