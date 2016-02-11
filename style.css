@@ -458,6 +458,107 @@ legend {
     padding: 10px;
 }
 
+/* Page gallery */
+
+.pictures {
+    display: inline-block;
+    position: relative;
+    margin-top: 310px;
+    height: auto;
+}
+
+.pictures ul {
+    margin-top: 0px;
+    margin-left: 80px;
+    padding-top: 10px;
+    width: 1600px;
+    height: 100px;
+    display: inline-block;
+    background: none;
+    opacity: 1;
+}
+
+.pictures ul li {
+    position:relative;
+    float:left;
+    width:300px;
+    height:300px;
+    padding:10px;
+    list-style:none;
+    margin-left: 100px 
+}
+
+.pictures ul li:nth-child(4n){
+    clear:left;
+}
+
+.pictures ul li a{
+    display:block;
+    overflow:hidden;
+    width:300px;
+    height:300px;
+    margin-top:0px;
+    margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+}
+
+.pictures ul li a:hover{
+    position:absolute;
+    width:500px;
+    height:500px;
+    margin-top:-50px;
+    margin-left:-90px;
+    z-index:100;
+    border:6px solid rgba(0,0,0,0.7);
+}
+
+.pictures #second_rang li a:hover{
+    margin-top: -200px;
+}
+
+.pictures ul li a img{
+    position:absolute;
+    width:300px;
+    height:300px;
+    z-index:20;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
+}
+
+.pictures ul li a:hover img{
+    width:500px;
+    height:500px;
+    z-index:100;
+}
+/* Page News */
+
+h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:0.9em;
+    margin-bottom:0px;
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+}
+.news
+{
+    width:70%;
+    margin:auto;
+}
+
+
+/* Page Schedule */
+
 /* Footer */
 
 .cont_foot {
@@ -504,7 +605,7 @@ legend {
 .contenu_footer {
     position: absolute;
     background-image: url(images/ciel.png);
-    height: 80px;
+    height: 100%;
     width: 1600px;
 }
 

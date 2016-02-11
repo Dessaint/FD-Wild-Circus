@@ -3,9 +3,9 @@
                 <div class="bandeau_footer">
                     <div class="cont_footer_bouton">
                         <ul>
-                            <li><a href="gallery.php"><img src="images/gallery.png"/></a></li>
-                            <li><a href="news.php"><img src="images/news.png"/></a></li>
-                            <li><a href="schedule.php"><img src="images/schedule.png"/></a></li>
+                            <li><a href="gallery.php"><img src="images/gallery.png" title="Gallery"/></a></li>
+                            <li><a href="news.php"><img src="images/news.png" title="News"/></a></li>
+                            <li><a href="schedule.php"><img src="images/schedule.png" title="Schedule"/></a></li>
                         </ul>
                     </div>    
                 </div>    
