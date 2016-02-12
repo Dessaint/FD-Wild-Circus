@@ -31,7 +31,8 @@ require("header.php")
                             <label>What is the purpose of your request<span class="red">*</span></label>
                             <select name="purpose" id="request" required>
                                 <option value="bug_report">Report a bug</option>
-                                <option value="reservation">Reservation show</option>
+                                <option value="reservation">Booking show</option>
+                                <option value="partner">Become partner</option>
                                 <option value="question">A question</option>
                                 <option value="other">Other</option>
                             </select>

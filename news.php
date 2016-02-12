@@ -10,7 +10,7 @@ require("header.php")
         </div>
         
             <div class="cont_contenu"> 
-             
+                <div class="cont_news">
                 <?php
 // Connexion à la base de données
 try
@@ -39,16 +39,14 @@ while ($donnees = $req->fetch())
     // On affiche le contenu du billet
     echo nl2br(htmlspecialchars($donnees['contenu']));
     ?>
-    <br />
-    <em><a href="commentaires.php?billet=<?php echo $donnees['id']; ?>">Commentaires</a></em>
-    </p>
 </div>
 
 <?php
 } // Fin de la boucle des billets
 $req->closeCursor();
 ?>                
-            </div>        
+            </div> 
+        </div>        
     </section>    
                 
 <?php

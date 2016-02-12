@@ -35,12 +35,17 @@ body {
     display: inline-block;
     position:absolute;
     height: 40px;
-    margin-top: 15px;
+    margin-top: -18px;
     margin-left: 1220px;
 }
 
 .cont_res a {
     margin-left: 15px;
+}
+
+.cont_res h3 {
+    background-color: transparent;
+    border: none;
 }
 
 header {
@@ -151,7 +156,7 @@ section {
     width: 450px;
     font-size: 15px;
     margin-top: 385px;
-    margin-left: 565px;
+    margin-left: 555px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
@@ -511,7 +516,7 @@ legend {
     margin-top:-50px;
     margin-left:-90px;
     z-index:100;
-    border:6px solid rgba(0,0,0,0.7);
+    border:6px solid white;
 }
 
 .pictures #second_rang li a:hover{
@@ -534,32 +539,71 @@ legend {
 }
 /* Page News */
 
+.cont_news {
+    margin-top: -170px;
+}
+
 h3
 {
     text-align:center;
 }
 h3
 {
-    background-color:black;
-    color:white;
+    background-color:#0e0b2a;
+    color: #f2f1a8;
     font-size:0.9em;
     margin-bottom:0px;
+    border: 2px solid white;
+    font-family: 'Cantata One', serif;
 }
+
 .news p
 {
-    background-color:#CCCCCC;
+    background-color:#f2f1a8;
     margin-top:0px;
+    font-family: 'Cantata One', serif;
+    border: 2px solid white;
+    color: #0e0b2a;
 }
 .news
 {
-    width:70%;
+    width:80%;
     margin:auto;
 }
 
 
 /* Page Schedule */
 
+.cont_schedule {
+    margin-top: -170px;
+    width: 100%;
+}
+
+.schedule p
+{
+    background-color:#f2f1a8;
+    margin-top:0px;
+    font-family: 'Cantata One', serif;
+    border: 2px solid white;
+    color: #0e0b2a;
+}
+.schedule
+{
+    width:32%;
+    height: 140px;
+    margin:auto;
+    display: inline-block;
+    margin-left: 12px;
+}
+ 
+/* Page Mention légales */
+
+#cont_section_leg .texte_bandeau {
+    margin-top: 0px;
+}
+
 /* Footer */
+/* Forme du footer */
 
 .cont_foot {
     position: relative;
@@ -607,6 +651,133 @@ h3
     background-image: url(images/ciel.png);
     height: 100%;
     width: 1600px;
+}
+
+/* Contenu Footer */
+    /* Contenu footer gauche */
+.contenu_gauche {
+    width: 50%;
+}
+
+.contenu_gauche ul .titre_footer li {
+    margin-left: 135px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    width: 140px;
+    background-color: #f2f1a8;
+    color: #0e0b2a;
+    padding: 5px;
+}
+
+.contenu_gauche ul {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 100px;
+    opacity: none;
+    background-color: transparent;
+}
+
+.contenu_gauche ul li {
+    color: #f2f1a8;
+    display: block;
+    font-size: 15px;
+    width: 100%; 
+    margin-left: -255px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.contenu_gauche ul li a {
+    text-decoration: none; 
+    color: #f2f1a8; 
+}
+
+.contenu_gauche ul li a:hover {
+    color: #e3e13b;   
+}
+
+/* Contenu footer centre */
+
+.contenu_centre {
+    display: block; 
+    width: 100px;
+}
+
+.img_contenu_centre img {
+    margin-left: 750px;
+    margin-top: -50px; 
+}
+
+/* Contenu footer droit */
+
+.contenu_droit {
+    width: 50%;
+    display: block;
+    margin-left: 900px;
+    margin-top: -140px;
+}
+
+.contenu_droit ul .titre_footer li {
+    margin-left: 75px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    width: 250px;
+    background-color: #f2f1a8;
+    color: #0e0b2a;
+    padding: 5px;
+}
+
+.contenu_droit ul {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 100px;
+    opacity: none;
+    background-color: transparent;
+}
+
+.contenu_droit ul li {
+    color: #f2f1a8;
+    display: block;
+    font-size: 15px;
+    width: 100%; 
+    margin-left: -255px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.contenu_droit ul li a {
+    text-decoration: none; 
+    color: #f2f1a8; 
+}
+
+.contenu_droit ul li a:hover {
+    color: #e3e13b;   
+}
+
+/* Contenu footer bas */
+
+.contenu_bas {
+    display: block;
+    width: 25%;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+h4 {
+    color: #f2f1a8;
+}
+
+h4 a {
+    text-decoration: none; 
+    color: #e3e13b; 
+}
+
+h4 a:hover {
+    color: blue;   
 }
 
 /* Page private access*/
