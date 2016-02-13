@@ -15,7 +15,7 @@
                         <div class="titre_footer"><li>The circus</li></div>
                         <ul>
                             <li><a href="circus.php">History</a></li>
-                            <li><a href="circus.php">Installation and marquee</a></li>
+                            <li><a href="circus.php#ancre_9">Installation and marquee</a></li>
                         </ul>
                     </ul>    
                     </div>
@@ -31,7 +31,7 @@
                         </ul>
                     </ul>   
                     </div>
-                    <div class="contenu_bas"><h4>Copyright© 2016 - <a href="http://wildcodeschool.fr/">School Integration Test</a> - <a href="mailto:franck.dessaint@gmail.com">design by FD</a></h4></div>
+                    <div class="contenu_bas"><h4>Copyright© 2016 - <a href="http://wildcodeschool.fr/" title="Wild Code School" target="_blank">School Integration Test</a> - <a href="mailto:franck.dessaint@gmail.com">design by FD</a></h4></div>
                 </div>
             </div>
                 

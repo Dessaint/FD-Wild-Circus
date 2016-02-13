@@ -28,10 +28,10 @@
             <div class="bloc_page">
             <navbar>
                 <ul>
-                    <li><a href="index.php#ancre_5">HOME</a></li>
-                    <li><a href="show.php#ancre_6">SHOW</a></li>
-                    <li><a href="artists.php#ancre_7">ARTISTS</a></li>
-                    <li><a href="contact.php#ancre_8">CONTACT</a></li>
+                    <li><a href="index.php#ancre_5" title="Wildcircus home">HOME</a></li>
+                    <li><a href="show.php#ancre_6" title="Wildcircus show">SHOW</a></li>
+                    <li><a href="artists.php#ancre_7" title="Wildcircus artists">ARTISTS</a></li>
+                    <li><a href="contact.php#ancre_8" title="Wildcircus contact">CONTACT</a></li>
                 </ul>
             </navbar>  
    

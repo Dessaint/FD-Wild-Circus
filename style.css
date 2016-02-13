@@ -625,6 +625,120 @@ h3
     margin-top: 0px;
 }
 
+.legal_text {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -370px;
+}
+
+.legal_text p {
+    font-family: 'Cantata One', serif;
+    color: #f2f1a8;
+    font-size: 20px;
+}
+
+/* Page Circus */
+
+    /* History */
+
+.history h1 {
+    margin-left: -100px;
+    text-decoration: underline;
+}
+
+.history {
+    margin-top: -400px;
+}
+
+.history_text {
+    font-family: 'Cantata One', serif;
+    color: #f2f1a8;
+    width: 50%;
+    font-size: 20px;
+}
+
+.history_text ul{
+    margin-top: -10px;
+    margin-left: 0px;
+    padding-top: 0px;
+    width: auto;
+    height: 150px;
+    display: block;
+    background: transparent;
+    opacity: 1;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.history_text ul li {
+    width: auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+    font-size: 20px;  
+}
+
+.history_img {
+    width: 50%;   
+    display: inline-block;;
+    vertical-align: center;
+    float: right;
+    margin-top: -410px;
+}
+
+.history_img img {
+    width: 70%;
+    margin-left: 150px;
+}
+
+/* Installation and marquee */
+
+
+.marquee {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.marquee_img {
+    width: 50%;
+}
+
+.marquee_img img {
+    width: 70%;
+     margin-top: 150px;
+    margin-left: 100px;
+}
+
+.marquee_text {
+    width: 50%;
+    float: right;
+    margin-top: -500px;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.marquee_text h1 {
+    margin-left: 50px;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+}
+
+.marquee_text h2 {
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.marquee_text p {
+    margin-top: -15px;
+    font-family: 'Cantata One', serif;
+    font-size: 20px;
+}
+
+
 /* Footer */
 /* Forme du footer */
 
@@ -678,6 +792,7 @@ h3
 
 /* Contenu Footer */
     /* Contenu footer gauche */
+
 .contenu_gauche {
     width: 50%;
 }
@@ -698,7 +813,7 @@ h3
     margin: 0 auto;
     margin-top: 10px;
     margin-left: 100px;
-    opacity: none;
+    opacity: 1;
     background-color: transparent;
 }
 
@@ -730,7 +845,8 @@ h3
 
 .img_contenu_centre img {
     margin-left: 750px;
-    margin-top: -50px; 
+    margin-top: -50px;
+    opacity; 1;
 }
 
 /* Contenu footer droit */
@@ -758,7 +874,7 @@ h3
     margin: 0 auto;
     margin-top: 10px;
     margin-left: 100px;
-    opacity: none;
+    opacity: 1;
     background-color: transparent;
 }
 
