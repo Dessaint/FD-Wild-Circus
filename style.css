@@ -275,11 +275,24 @@ section {
 .text_performance {
     display: inline-block;
     width: 432px;
-    height: 287px;
+    height: auto;
     background: white;
     border: 6px solid #0e0b2a;
-    margin-bottom: -6px;
+    font-size: 14px;
+    font-family: 'Cantata One', serif;
+    color: #0e0b2a;
+    margin-bottom: 50px;
     margin-left: 134px;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+.text_performance p a {
+    text-decoration: none;
+}
+
+.text_performance img {
+    margin-bottom: -10px;
 }
 
 .artist_performance {
@@ -317,18 +330,19 @@ section {
 /* Page show */
 
 .cont_section_bis {
-    height: 600px;
-    margin-top: -260px;
+    height: 350px;
+    margin-top: -45px;
     display: block;
 }
 
 .cont_section_bis .cont_contenu {
-    padding-top: 270px;
-    margin-top: 0px;    
+    padding-top: 0px;
+    margin-top: 70px;
+    height: 100px;
 }
 
 .cont_section_bis .cont_contenu .text_performance {
-    margin-bottom: -7px;
+    margin-bottom: 70px;
     margin-top: 0px;
 }
 
@@ -354,10 +368,10 @@ section {
 
 .fiche_artist {
     display: inline-block;
-    margin-left: 95px;
+    margin-left: 75px;
     margin-top: 15px;
     width: auto;
-    height: 380px;
+    height: auto;
 }
 
 .img_artist {
@@ -369,9 +383,18 @@ section {
     width: 270px;
     height: 40%;
     display:inline-block;
-    margin-top: 70px;
+    margin-top: 0px;
     border: 6px solid #0e0b2a;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    color: #0e0b2a; 
 }
+
+.text_artist img{
+    margin-bottom: -10px;
+}
+
 
 /* Page contact */
 

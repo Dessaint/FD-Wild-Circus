@@ -12,7 +12,11 @@ require("header.php")
                 <div class="img_performance">
                     <img src="images/amazing_fire0.jpg"/>
                 </div>   
-                <div class="text_performance"></div>
+                <div class="text_performance">
+                    <p>You will be blown away by Steve and Jess Brown!</p> 
+                    <p>This English brotherly duo who form the "Amazing Fire" and offers a colorful spectacle, heats to breathtaking.</p>
+                    <p><em>Duration: 20 minutes</em></p>
+                </div>
                 <div class="artist_performance">
                     <a href="artists.php"><img src="images/amazing_fire_artist1_small.png"/></a>
                     <a href="artists.php"><img src="images/amazing_fire_artist2_small.png"/></a>

@@ -28,10 +28,10 @@
             <div class="bloc_page">
             <navbar>
                 <ul>
-                    <li><a href="index.php">HOME</a></li>
-                    <li><a href="show.php">SHOW</a></li>
-                    <li><a href="artists.php">ARTISTS</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="index.php#ancre_5">HOME</a></li>
+                    <li><a href="show.php#ancre_6">SHOW</a></li>
+                    <li><a href="artists.php#ancre_7">ARTISTS</a></li>
+                    <li><a href="contact.php#ancre_8">CONTACT</a></li>
                 </ul>
             </navbar>  
    
