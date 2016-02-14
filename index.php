@@ -20,7 +20,7 @@ require("header.php")
                     <div class="performance_text">~ The Poodle Trainer ~</div>
                     </div>
                     
-                    <div class="astuce_clown"><a href="astuce_performance.php#ancre_4"><img src="images/clown_astuce.png"/></a></div> 
+                    <div class="astuce_clown"><a href="astuce_performance.php#ancre_4"><img src="images/clown_astuce_2.png"/></a></div> 
                     
                     <div class="third_performance"><a href="third_performance.php#ancre_3"><img src="images/freestyle_bike.jpg"/></a>
                     <div class="performance_text">~ Crazy Freestyle Bikes ~</div>    

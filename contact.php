@@ -50,8 +50,8 @@ require("header.php")
                                 <input type="radio" name="you_telephone" id="prefer1"/>By telephone<br />
                             </p>             
                         </fieldset><br />
-                            <input type="submit" name="submit" value="Submit">
-                        <input type="reset" value="Reset"><br />
+                            <input type="submit" name="submit" value="Submit" class="bouton_perso">
+                        <input type="reset" value="Reset" class="bouton_perso"><br />
                         <p><span class="red">*</span>Compulsory indication</p>
                     
                     </form>

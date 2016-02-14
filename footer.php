@@ -31,7 +31,7 @@
                         </ul>
                     </ul>   
                     </div>
-                    <div class="contenu_bas"><h4>Copyright© 2016 - <a href="http://wildcodeschool.fr/" title="Wild Code School" target="_blank">School Integration Test</a> - <a href="mailto:franck.dessaint@gmail.com">design by FD</a></h4></div>
+                    <div class="contenu_bas"><h4>Copyright© 2016 - <a href="http://wildcodeschool.fr/" title="Wild Code School" target="_blank">School Integration Test</a> - <a href="mailto:dessam.web@gmail.com">design by FD</a></h4></div>
                 </div>
             </div>
                 

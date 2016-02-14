@@ -14,11 +14,11 @@ require("header.php")
         
         <form action="private.php" method="post">
             <p>
-            Name :    
+            <label>Name :</label>    
             <input type="text" name="nom"><br/>   
-            Password :  
-            <input type="password" name="password"><br/>
-            <input type="submit" value="Submit"> 
+            <label>Password :</label>
+            <input type="password" name="password"><br/><br />
+            <input type="submit" value="Submit" class="bouton_perso"> 
             </p>
         </form>   
                 </div>
