@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
+    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
+    <link rel="stylesheet" href="extra_small_resolution.css" media="screen and (max-width: 599px)"  >     
+    <link rel="shortcut icon" href="images/logo_wc.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
+    <title>Wild Circus show performance</title>
+    <meta type="description">    
+    </head>
+    
+    <body>
+        <div class="container">
+
+
 <?php 
 require("header.php")
 ?>    
@@ -11,6 +30,7 @@ require("header.php")
                 </div>
                 <div class="cont_contenu"> 
                     <div class="cont_section_bis">
+                        <div class="cont_section_bis_1">
                         <div class="cont_contenu">    
                             <div class="img_performance">
                             <img src="images/amazing_fire0.jpg"/>
@@ -25,9 +45,11 @@ require("header.php")
                             <a href="artists.php"><img src="images/amazing_fire_artist2_small.png"/></a>
                         </div>   
                         </div>
+                        </div>
                     </div>
                     
-                    <div class="cont_section_bis">    
+                    <div class="cont_section_bis"> 
+                        <div class="cont_section_bis_2">
                         <div class="cont_contenu">
                             <div class="img_performance">
                             <img src="images/poodle_trainer0.jpg"/>
@@ -42,9 +64,11 @@ require("header.php")
                             <a href="artists.php"><img src="images/poodle_trainer_artist2_small.png"/></a>
                         </div>
                         </div>
+                        </div>
                     </div>
                     
-                    <div class="cont_section_bis"> 
+                    <div class="cont_section_bis">
+                        <div class="cont_section_bis_3"></div>
                         <div class="cont_contenu">    
                             <div class="img_performance">
                             <img src="images/freestyle_bike1.jpg"/>
@@ -59,9 +83,11 @@ require("header.php")
                             <a href="artists.php"><img src="images/freestyle_bike_artist2_small.png"/></a>
                         </div> 
                         </div>
+                    </div>
                     </div> 
                     
-                    <div class="cont_section_bis"> 
+                    <div class="cont_section_bis">
+                        <div class="cont_section_bis_4">
                         <div class="cont_contenu">    
                             <div class="img_performance">
                             <img src="images/clown_astuce1.jpg"/>
@@ -77,9 +103,12 @@ require("header.php")
                         </div>
                     </div>    
                 </div>
-            </section>    
+                </section>    
                 
 <?php
 require("footer.php")
 ?>    
-            
+
+ </div>
+    </body>    
+</html>            

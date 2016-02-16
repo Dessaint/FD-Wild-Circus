@@ -7,7 +7,7 @@ require("header.php")
                 <div class="cont_section">
                     <div class="cont_bandeau"><img src="images/bandeau_gallery.jpg"/></div>
                         <div class="texte_bandeau_spec"><h1>Pictures gallery</h1></div>
-                    
+                        <div class="cont_contenu">
                         <div class="pictures">
                             <ul>
                                 <li>
@@ -45,7 +45,7 @@ require("header.php")
                             </ul>
                         </div>
                     </div>
-                <div class="cont_contenu"> </div>
+                 </div>
             </section>    
                 
 <?php

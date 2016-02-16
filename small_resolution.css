@@ -1,8 +1,15 @@
 body {
-    height: 100%;
-    width: 1600px;
+    height: auto;
+    width: 599px;
     margin: 0 auto;
     background-color: #0e0b2a;
+}
+
+container {
+    width: 599px;
+    margin: 0 auto;
+    
+    
 }
 
 /* Header */
@@ -16,8 +23,8 @@ body {
 .bandeau_res {
     position: absolute;
     font-size: 20px;
-    margin-top: 15px;
-    margin-left: 100px;
+    margin-top: -10px;
+    margin-left: 0px;
     padding-top: 5px;
     padding-left: 7px;
     width : 190px;
@@ -28,43 +35,43 @@ body {
 .bandeau_res a {
     text-decoration: none;
     color: #f2f1a8;
-    width: 60px;
-    height: 60px;
+    width: 75%;
+    height: 75%;
+    margin-left: 10px;
 }
 
-.bandeau_res img {
-    text-decoration: none;
-    color: #f2f1a8;
-    width: 70px;
-    height: 70px;
-}
 
 .cont_res {
     display: inline-block;
     position:absolute;
     height: 40px;
     margin-top: -18px;
-    margin-left: 1220px;
+    margin-left: 390px;
 }
 
 .cont_res a {
-    margin-left: 15px;
+    margin-left: 105px;
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin-top: 40px;
 }
 
 .cont_res h3 {
     background-color: transparent;
     border: none;
-    margin-left: 10px;
+    margin-bottom: -40px;
+    margin-left: 95px;
 }
 
 header {
-    width: 100%;
-    background-image: url(images/ciel.png);   
+    width: 599px;
+    background-image: url(images/ciel.png); 
 }
 
 .logo {
     position: relative;
-    width: 450px;
+    width: 250px;
     margin: 0 auto;
     display: block;
 }
@@ -72,17 +79,18 @@ header {
 .logo img {
     width: auto;
     margin: 0 auto;
-    margin-left: 80px;
+    margin-left: 0px;
 }
 
 /* Navbar */
 
 navbar {
-    width: 1600px;
+    width: 599px;
     height: 60px;
     margin: 0 auto;
     display: block;
     border-top: 4px solid #f2f1a8;
+    margin-left: 0px;
 }
 
 navbar a {
@@ -100,10 +108,10 @@ navbar a:active {
 
 ul {
     margin-top: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    width: 1600px;
-    height: 50px;
+    margin-left: -40px;
+    padding-top: -20px;
+    width: 599px;
+    height: 40px;
     display:inline-block;
     background: #0e0b2a;
     opacity: 0.7
@@ -115,8 +123,8 @@ li {
     position: relative;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 200px;
-    font-size: 30px;
+    margin-left: 35px;
+    font-size: 25px;
     font-family: 'Cantata One', serif;
 }
 
@@ -130,7 +138,7 @@ a:hover {
 .bloc_page  {
     position: absolute;
     margin: 0 auto;
-    width: 1600px;
+    width: 599px;
     height: auto;
     background-image:url(images/smoke-effect.png);
     background-repeat: no-repeat;
@@ -145,7 +153,7 @@ h1 {
 
 section {
     height: auto;
-    width: 1600px;
+    width: 599px;
     
 }
 
@@ -158,18 +166,22 @@ section {
 .cont_bandeau {
     position:absolute;
     display: block;  
-    width: auto;
+    width: 599px;
+}
+
+.cont_bandeau img {
+    width: 599px;
 }
 
 .texte_bandeau {
     position :absolute;
-    height: 60px;
+    height: 50px;
     display: block;
     margin: 0 auto;
-    width: 450px;
-    font-size: 15px;
-    margin-top: 385px;
-    margin-left: 555px;
+    width: 400px;
+    font-size: 13px;
+    margin-top: 115px;
+    margin-left: 95px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
@@ -179,10 +191,10 @@ section {
     height: 60px;
     display: block;
     margin: 0 auto;
-    width: 450px;
-    font-size: 15px;
-    margin-top: 185px;
-    margin-left: 565px;
+    width: 400px;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 90px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
@@ -191,7 +203,6 @@ section {
     border: 5px solid #0e0b2a;
     border-radius: 30px;
     background: white;
-    width : 1600;
     padding : 10px;
     color: #0e0b2a;
     text-align: center;
@@ -202,7 +213,7 @@ section {
     border: 5px solid #0e0b2a;
     border-radius: 30px;
     background: white;
-    width : 1600;
+    width : 599;
     padding : 10px;
     color: #0e0b2a;
     text-align: center;
@@ -211,10 +222,10 @@ section {
 /* Page home */
 
 .cont_contenu {
-    padding-top: 500px;
+    padding-top: 220px;
     position: relative;
     display: block;
-    width: 1600px;
+    width: 599px;
     height: auto;
     padding-bottom: 30px;
    
@@ -224,81 +235,115 @@ section {
     padding-top: 200px;
     position: relative;
     display: block;
-    width: 1600px;
+    width: 599px;
     height: 560px;
 }
 
 .astuce_clown {
-    width: 150px;
-    height:175px;
-    display: inline-block;
+    width: 100px;
+    height: 100px;
+    display: block;
     top: -60px;
     position: relative;
-    margin: 10px;
+    margin-top: 80px;
+    margin-left: 230px;
     opacity: 0.9;
 }
 
+.astuce_clown img {
+     width: 125px;
+    height: 125px;
+}
+
 .first_performance {
-    width: 400px;
-    height: 400px;    
-    display: inline-block;
-    border: 6px solid white;
-    margin-left: 0px;
-    box-shadow:8px 8px 12px #aaa;
+    width: 350px;
+    height: 350px;
+    margin-left: 120px;
+    display: block;
+    border: 6px solid white;  
+}
+
+.first_performance img {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    box-shadow:8px 8px 12px white;
 }
 
 .second_performance {
-    width: 400px;
-    height: 400px;    
-    display: inline-block;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-left: 120px;
+    display: block;
     border: 6px solid white;
-    box-shadow:8px 8px 12px #aaa;
+    box-shadow:8px 8px 12px white;
+}
+
+.second_performance img {
+    width: 350px;
+    height: 350px;
 }
 
 .third_performance {
-    width: 400px;
-    height: 400px;    
-    display: inline-block;
+    width: 350px;
+    height: 350px;    
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-left: 120px;
     border: 6px solid white;
-    box-shadow:8px 8px 12px #aaa;
+    box-shadow:8px 8px 12px white;
+}
+
+.third_performance img {
+    width: 350px;
+    height: 350px;
 }
 
 .performance_text {
     position: absolute;
     display: block;
-    width: 400px;
-    height: 40px;
+    width: 350px;
+    height: 30px;
     background: white;
     border: 0px solid white;
     color: #0e0b2a;
-    font-size: 27px;
+    font-size: 19px;
     font-family: 'Cantata One', serif;
-    margin-top: -40px;
+    margin-top: -30px;
     text-align: center;
 }
 
 /* Pages performance*/
 
 .img_performance {
-    width: 432px;
-    height: 287px;
+    width: 288px;
+    height: 191px;
     border: 6px solid white;
     display :inline-block;
     box-shadow:8px 8px 12px #aaa;
+    margin-left: 0px;
+}
+
+.img_performance img {
+    width: 288px;
+    height: 191px;
 }
 
 .text_performance {
     display: inline-block;
-    width: 432px;
-    height: auto;
+    width: 258px;
+    height: 171px;
     background: white;
     border: 6px solid #0e0b2a;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Cantata One', serif;
     color: #0e0b2a;
-    margin-bottom: 50px;
-    margin-left: 134px;
-    vertical-align: bottom;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    vertical-align: center;
     padding: 10px;
 }
 
@@ -307,26 +352,32 @@ section {
 }
 
 .text_performance img {
-    margin-bottom: -10px;
+    margin-top: -10px;
+    display: block;
 }
 
 .artist_performance {
-    display: inline-block;
+    display: block;
     position: relative;
-    width: 432px;
+    width: 450px;
     height: 120px;
-    margin-left: 60px;
-    top: -80px;
+    margin-left: 85px;
+    margin-top: 110px;
+    top: -20px;
 }
 
-.artist_performance img {
-    margin-left: 70px;
+.artist_performance img { 
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: -70px;
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
 
 .scroll {
     width: 1600px;
-    margin-top: 20px ;
-    margin-left: 725px;
+    margin-top: -40px ;
+    margin-left: 230px;
 }
 
 .next_forward {
@@ -344,34 +395,65 @@ section {
 
 /* Page show */
 
+.cont_section_bis_1{
+    margin-top: -10px;
+}
+
+.cont_section_bis_2 {
+    margin-top: 80px;
+    height: 350px;
+}
+
+.cont_section_bis_3 {
+    margin-top: -300px;
+    height: 350px;
+}
+
+.cont_section_bis_4 {
+    margin-top: 420px;
+    padding-bottom: 130px;
+    height: 450px;
+}
+
+.cont_section_bis_4 .cont_contenu {
+    height: 650px;
+}
+
 .cont_section_bis {
     height: 350px;
-    margin-top: -45px;
+    margin-top: 0px;
     display: block;
 }
 
 .cont_section_bis .cont_contenu {
     padding-top: 0px;
-    margin-top: 70px;
+    margin-top: 20px;
     height: 100px;
 }
 
+.cont_section_bis .cont_contenu .img_performance  {
+   margin-bottom: 25px;
+}
+
 .cont_section_bis .cont_contenu .text_performance {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     margin-top: 0px;
+    margin-left: 0px;
 }
 
 .cont_section_bis .cont_contenu .artist_performance {
-    top: -60px;
+    top: -20px;
+    margin-top: 80px;
+    
 }
 
 .texte_show {
-    margin-top: -45px;
-    height: 45px;
-    width: 435px;
+    margin-top: -35px;
+    height: 35px;
+    width: 288px;
     position: absolute;
     background: white;
-    font-size: 20px;
+    font-size: 13px;
     font-family: 'Cantata One', serif;
 }
 
@@ -383,7 +465,7 @@ section {
 
 .fiche_artist {
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 105px;
     margin-top: 15px;
     width: auto;
     height: auto;
@@ -393,16 +475,24 @@ section {
     height: 50%;
 }
 
+.img_artist img {
+    width: 70%;
+    height: 70%;
+    margin-left: 80px;
+}
+
 .text_artist {
     background: white;
-    width: 270px;
+    width: 150px;
     height: 40%;
     display:inline-block;
     margin-top: 0px;
+    margin-left: 112px;
     border: 6px solid #0e0b2a;
     padding: 10px;
     text-align: center;
     font-family: 'Cantata One', serif;
+    font-size: 13px; 
     color: #0e0b2a; 
 }
 
@@ -420,6 +510,7 @@ form {
     display: block;
     position: relative;
     margin-bottom: 0px;
+    margin-left: 80px;
     
 }
 
@@ -469,10 +560,10 @@ legend {
     display: block;
     position: relative;
     width: 50%;
-    height: 400px;
-    margin-left: 900px;
-    margin-top: -630px;
-    margin-bottom: 220px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: 50px;
+    margin-bottom: 300px;
 }
 
 .img_contact {
@@ -505,17 +596,18 @@ legend {
 .pictures {
     display: inline-block;
     position: relative;
-    margin-top: 310px;
-    height: auto;
+    margin-top: -80px;
+    height:100%;
+    width: 599px;
 }
 
 .pictures ul {
     margin-top: 0px;
-    margin-left: 80px;
+    margin-left: 50px;
     padding-top: 10px;
-    width: 1600px;
+    width: 599px;
     height: 100px;
-    display: inline-block;
+    display: block;
     background: none;
     opacity: 1;
 }
@@ -523,8 +615,8 @@ legend {
 .pictures ul li {
     position:relative;
     float:left;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     padding:10px;
     list-style:none;
     margin-left: 100px 
@@ -535,10 +627,10 @@ legend {
 }
 
 .pictures ul li a{
-    display:block;
+    display: block;
     overflow:hidden;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     margin-top:0px;
     margin-left:0px;
     border:0px solid rgba(0,0,0,0.7);
@@ -548,30 +640,27 @@ legend {
 
 .pictures ul li a:hover{
     position:absolute;
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     margin-top:-50px;
     margin-left:-90px;
     z-index:100;
     border:6px solid white;
 }
 
-.pictures #second_rang li a:hover{
-    margin-top: -200px;
-}
 
 .pictures ul li a img{
     position:absolute;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     z-index:20;
     transition-property:width,height,z-index;
     transition-duration:0.4s;
 }
 
 .pictures ul li a:hover img{
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     z-index:100;
 }
 /* Page News */
@@ -626,23 +715,23 @@ h3
 }
 .schedule
 {
-    width:32%;
+    width:30%;
     height: 140px;
     margin:auto;
     display: inline-block;
-    margin-left: 12px;
+    margin-left: 25px;
 }
  
 /* Page Mention légales */
 
 #cont_section_leg .texte_bandeau {
-    margin-top: 0px;
+    margin-top: -20px;
 }
 
 .legal_text {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
-    margin-top: -370px;
+    margin-top: -120px;
 }
 
 .legal_text p {
@@ -656,19 +745,20 @@ h3
     /* History */
 
 .history h1 {
-    margin-left: -100px;
+    margin-left: -30px;
     text-decoration: underline;
 }
 
 .history {
-    margin-top: -400px;
+    margin-top: -120px;
+    margin-left: 40px;
 }
 
 .history_text {
     font-family: 'Cantata One', serif;
     color: #f2f1a8;
-    width: 50%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 18px;
 }
 
 .history_text ul{
@@ -690,7 +780,7 @@ h3
     display: block;
     margin: 0 auto;
     margin-left: 10px;
-    font-size: 20px;  
+    font-size: 18px;  
 }
 
 .history_img {
@@ -698,12 +788,14 @@ h3
     display: inline-block;;
     vertical-align: center;
     float: right;
-    margin-top: -410px;
+    margin-top: -370px;
+    margin-left: -40px;
 }
 
 .history_img img {
     width: 70%;
-    margin-left: 150px;
+    margin-left: 55px;
+    margin-top: 50px;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
 }
@@ -712,32 +804,34 @@ h3
 
 
 .marquee {
-    margin-top: 100px;
-    margin-bottom: 120px;
+    margin-top: 300px;
+    height: 400px;
+    
 }
 
 .marquee_img {
-    width: 50%;
+    width: 60%;
 }
 
 .marquee_img img {
-    width: 70%;
+    width: 55%;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 10px;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
 }
 
 .marquee_text {
-    width: 50%;
+    width: 60%;
     float: right;
     margin-top: -500px;
     color: #f2f1a8;
     font-family: 'Cantata One', serif;
+    
 }
 
 .marquee_text h1 {
-    margin-left: 50px;
+    margin-left: 5px;
     color: #f2f1a8;
     font-family: 'Cantata One', serif;
     text-decoration: underline;
@@ -753,7 +847,7 @@ h3
 .marquee_text p {
     margin-top: -15px;
     font-family: 'Cantata One', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -762,7 +856,7 @@ h3
 
 .cont_foot {
     position: relative;
-    width: 1600px;
+    width: 599px;
     height: 210px;
     margin-top: auto;
     bottom: 0px;
@@ -770,13 +864,14 @@ h3
 
 .cont_footer_bouton {
     position: relative;
-    width: 500px;
+    width: 599px;
     height: 74px;
     margin: 0 auto;
+    margin-left: 175px;
 }
 
 .bandeau_footer {
-    width: 1600px;
+    width: 599px;
     height: 70px;
     margin: 0 auto;
     display: block;
@@ -787,7 +882,7 @@ h3
 
 .bandeau_footer li {
     color: #f2f1a8;
-    margin-left: 85px;
+    margin-left: 35px;
     margin-top: -5px;
     font-size: 25px;   
 }
@@ -798,14 +893,14 @@ h3
 
 .bandeau_footer ul {
     margin-top: 0px;
-    margin-left: -50px;
+    margin-left: -80px;
 }
 
 .contenu_footer {
     position: absolute;
     background-image: url(images/ciel.png);
     height: 100%;
-    width: 1600px;
+    width: 599px;
 }
 
 /* Contenu Footer */
@@ -816,9 +911,9 @@ h3
 }
 
 .contenu_gauche ul .titre_footer li {
-    margin-left: 135px;
+    margin-left: -90px;
     margin-bottom: -10px;
-    font-size: 20px;
+    font-size: 18px;
     width: 140px;
     background-color: #f2f1a8;
     color: #0e0b2a;
@@ -831,7 +926,7 @@ h3
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 80px;
     opacity: 1;
     background-color: transparent;
 }
@@ -863,8 +958,8 @@ h3
 }
 
 .img_contenu_centre img {
-    margin-left: 750px;
-    margin-top: -50px;
+    margin-left: 245px;
+    margin-top: -20px;
     opacity; 1;
 }
 
@@ -873,15 +968,15 @@ h3
 .contenu_droit {
     width: 50%;
     display: block;
-    margin-left: 900px;
-    margin-top: -140px;
+    margin-left: 150px;
+    margin-top: -159px;
 }
 
 .contenu_droit ul .titre_footer li {
-    margin-left: 75px;
+    margin-left: -10px;
     margin-bottom: -10px;
-    font-size: 20px;
-    width: 250px;
+    font-size: 18px;
+    width: 180px;
     background-color: #f2f1a8;
     color: #0e0b2a;
     padding: 5px;
@@ -893,7 +988,7 @@ h3
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
     opacity: 1;
     background-color: transparent;
 }
@@ -903,7 +998,7 @@ h3
     display: block;
     font-size: 15px;
     width: 100%; 
-    margin-left: -255px;
+    margin-left: -275px;
     text-align: center;
     background-color: transparent;
 }
@@ -921,9 +1016,9 @@ h3
 
 .contenu_bas {
     display: block;
-    width: 25%;
-    margin-top: 100px;
-    margin-left: 600px;
+    width: 70%;
+    margin-top: 110px;
+    margin-left: 100px;
 }
 
 h4 {
@@ -949,9 +1044,11 @@ h4 a:hover {
 .mot_passe {
     position: absolute;
     display: block;
-    margin-top: 270px;
+    margin-top: 40px;
+    margin-left: 50px;
     font-size: 20px;
-    width: 100%;
+    width: 70%;
+    height: 150px;
 }
 
 .mot_passe label {

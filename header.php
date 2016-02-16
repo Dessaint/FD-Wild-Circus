@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
+    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
+    <link rel="stylesheet" href="extra_small_resolution.css" media="all and (max-device-width: 599px)"  >    
     <link rel="shortcut icon" href="images/logo_wc.ico">
     <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    

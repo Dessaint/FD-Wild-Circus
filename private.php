@@ -16,7 +16,8 @@ require("header.php")
     ?>  
         <div class="cont_contenu">             
             <div class="cont_private">
-            <p>Her you will find many specific practical informations.</p>
+            <p>Welcome <?php echo $_POST['nom']; ?>,</p>    
+            <p>Here you will find many specific practical informations.</p>
             
             <p></p>
             </div>  

@@ -1,8 +1,15 @@
 body {
-    height: 100%;
-    width: 1600px;
+    height: auto;
+    width: 1080px;
     margin: 0 auto;
     background-color: #0e0b2a;
+}
+
+container {
+    width: 1080px;
+    margin: 0 auto;
+    
+    
 }
 
 /* Header */
@@ -17,7 +24,7 @@ body {
     position: absolute;
     font-size: 20px;
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 60px;
     padding-top: 5px;
     padding-left: 7px;
     width : 190px;
@@ -28,23 +35,15 @@ body {
 .bandeau_res a {
     text-decoration: none;
     color: #f2f1a8;
-    width: 60px;
-    height: 60px;
 }
 
-.bandeau_res img {
-    text-decoration: none;
-    color: #f2f1a8;
-    width: 70px;
-    height: 70px;
-}
 
 .cont_res {
     display: inline-block;
     position:absolute;
     height: 40px;
     margin-top: -18px;
-    margin-left: 1220px;
+    margin-left: 700px;
 }
 
 .cont_res a {
@@ -54,12 +53,11 @@ body {
 .cont_res h3 {
     background-color: transparent;
     border: none;
-    margin-left: 10px;
 }
 
 header {
-    width: 100%;
-    background-image: url(images/ciel.png);   
+    width: 1080px;
+    background-image: url(images/ciel.png); 
 }
 
 .logo {
@@ -78,11 +76,12 @@ header {
 /* Navbar */
 
 navbar {
-    width: 1600px;
+    width: 1080px;
     height: 60px;
     margin: 0 auto;
     display: block;
     border-top: 4px solid #f2f1a8;
+    margin-left: 0px;
 }
 
 navbar a {
@@ -100,9 +99,9 @@ navbar a:active {
 
 ul {
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: -40px;
     padding-top: 10px;
-    width: 1600px;
+    width: 1080px;
     height: 50px;
     display:inline-block;
     background: #0e0b2a;
@@ -115,7 +114,7 @@ li {
     position: relative;
     display: inline-block;
     margin: 0 auto;
-    margin-left: 200px;
+    margin-left: 100px;
     font-size: 30px;
     font-family: 'Cantata One', serif;
 }
@@ -130,7 +129,7 @@ a:hover {
 .bloc_page  {
     position: absolute;
     margin: 0 auto;
-    width: 1600px;
+    width: 1080px;
     height: auto;
     background-image:url(images/smoke-effect.png);
     background-repeat: no-repeat;
@@ -145,7 +144,7 @@ h1 {
 
 section {
     height: auto;
-    width: 1600px;
+    width: 1080px;
     
 }
 
@@ -158,7 +157,11 @@ section {
 .cont_bandeau {
     position:absolute;
     display: block;  
-    width: auto;
+    width: 1080px;
+}
+
+.cont_bandeau img {
+    width: 1080px;
 }
 
 .texte_bandeau {
@@ -168,8 +171,8 @@ section {
     margin: 0 auto;
     width: 450px;
     font-size: 15px;
-    margin-top: 385px;
-    margin-left: 555px;
+    margin-top: 250px;
+    margin-left: 285px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
@@ -181,8 +184,8 @@ section {
     margin: 0 auto;
     width: 450px;
     font-size: 15px;
-    margin-top: 185px;
-    margin-left: 565px;
+    margin-top: 115px;
+    margin-left: 300px;
     padding: 10px;
     font-family: 'Cantata One', serif;
 }
@@ -191,7 +194,6 @@ section {
     border: 5px solid #0e0b2a;
     border-radius: 30px;
     background: white;
-    width : 1600;
     padding : 10px;
     color: #0e0b2a;
     text-align: center;
@@ -211,10 +213,10 @@ section {
 /* Page home */
 
 .cont_contenu {
-    padding-top: 500px;
+    padding-top: 380px;
     position: relative;
     display: block;
-    width: 1600px;
+    width: 1080px;
     height: auto;
     padding-bottom: 30px;
    
@@ -224,13 +226,13 @@ section {
     padding-top: 200px;
     position: relative;
     display: block;
-    width: 1600px;
+    width: 1080px;
     height: 560px;
 }
 
 .astuce_clown {
-    width: 150px;
-    height:175px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     top: -60px;
     position: relative;
@@ -238,66 +240,93 @@ section {
     opacity: 0.9;
 }
 
+.astuce_clown img {
+     width: 100px;
+    height: 100px;
+}
+
 .first_performance {
-    width: 400px;
-    height: 400px;    
+    width: 250px;
+    height: 250px;    
     display: inline-block;
     border: 6px solid white;
-    margin-left: 0px;
+    margin-left: 15px;
     box-shadow:8px 8px 12px #aaa;
+}
+
+.first_performance img {
+    width: 250px;
+    height: 250px;
 }
 
 .second_performance {
-    width: 400px;
-    height: 400px;    
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
     display: inline-block;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
 }
 
+.second_performance img {
+    width: 250px;
+    height: 250px;
+}
+
 .third_performance {
-    width: 400px;
-    height: 400px;    
+    width: 250px;
+    height: 250px;    
     display: inline-block;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
+}
+
+.third_performance img {
+    width: 250px;
+    height: 250px;
 }
 
 .performance_text {
     position: absolute;
     display: block;
-    width: 400px;
-    height: 40px;
+    width: 250px;
+    height: 30px;
     background: white;
     border: 0px solid white;
     color: #0e0b2a;
-    font-size: 27px;
+    font-size: 19px;
     font-family: 'Cantata One', serif;
-    margin-top: -40px;
+    margin-top: -30px;
     text-align: center;
 }
 
 /* Pages performance*/
 
 .img_performance {
-    width: 432px;
-    height: 287px;
+    width: 288px;
+    height: 191px;
     border: 6px solid white;
     display :inline-block;
     box-shadow:8px 8px 12px #aaa;
+    margin-left: 30px;
+}
+
+.img_performance img {
+    width: 288px;
+    height: 191px;
 }
 
 .text_performance {
     display: inline-block;
-    width: 432px;
+    width: 288px;
     height: auto;
     background: white;
     border: 6px solid #0e0b2a;
-    font-size: 14px;
+    font-size: 13px;
     font-family: 'Cantata One', serif;
     color: #0e0b2a;
-    margin-bottom: 50px;
-    margin-left: 134px;
+    margin-bottom: 0px;
+    margin-left: 70px;
     vertical-align: bottom;
     padding: 10px;
 }
@@ -313,20 +342,20 @@ section {
 .artist_performance {
     display: inline-block;
     position: relative;
-    width: 432px;
+    width: 320px;
     height: 120px;
-    margin-left: 60px;
-    top: -80px;
+    margin-left: 20px;
+    top: -20px;
 }
 
 .artist_performance img {
-    margin-left: 70px;
+    margin-left: 20px;
 }
 
 .scroll {
     width: 1600px;
     margin-top: 20px ;
-    margin-left: 725px;
+    margin-left: 500px;
 }
 
 .next_forward {
@@ -345,33 +374,33 @@ section {
 /* Page show */
 
 .cont_section_bis {
-    height: 350px;
-    margin-top: -45px;
+    height: 300px;
+    margin-top: -15px;
     display: block;
 }
 
 .cont_section_bis .cont_contenu {
     padding-top: 0px;
-    margin-top: 70px;
+    margin-top: 0px;
     height: 100px;
 }
 
 .cont_section_bis .cont_contenu .text_performance {
-    margin-bottom: 70px;
+    margin-bottom: 25px;
     margin-top: 0px;
 }
 
 .cont_section_bis .cont_contenu .artist_performance {
-    top: -60px;
+    top: -20px;
 }
 
 .texte_show {
-    margin-top: -45px;
-    height: 45px;
-    width: 435px;
+    margin-top: -35px;
+    height: 35px;
+    width: 288px;
     position: absolute;
     background: white;
-    font-size: 20px;
+    font-size: 13px;
     font-family: 'Cantata One', serif;
 }
 
@@ -383,7 +412,7 @@ section {
 
 .fiche_artist {
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 65px;
     margin-top: 15px;
     width: auto;
     height: auto;
@@ -393,9 +422,15 @@ section {
     height: 50%;
 }
 
+.img_artist img {
+    width: 50%;
+    height: 50;
+    margin-left: 20px;
+}
+
 .text_artist {
     background: white;
-    width: 270px;
+    width: 150px;
     height: 40%;
     display:inline-block;
     margin-top: 0px;
@@ -403,6 +438,7 @@ section {
     padding: 10px;
     text-align: center;
     font-family: 'Cantata One', serif;
+    font-size: 13px; 
     color: #0e0b2a; 
 }
 
@@ -470,9 +506,9 @@ legend {
     position: relative;
     width: 50%;
     height: 400px;
-    margin-left: 900px;
-    margin-top: -630px;
-    margin-bottom: 220px;
+    margin-left: 460px;
+    margin-top: -730px;
+    margin-bottom: 300px;
 }
 
 .img_contact {
@@ -505,15 +541,15 @@ legend {
 .pictures {
     display: inline-block;
     position: relative;
-    margin-top: 310px;
+    margin-top: 245px;
     height: auto;
 }
 
 .pictures ul {
     margin-top: 0px;
-    margin-left: 80px;
+    margin-left: -40px;
     padding-top: 10px;
-    width: 1600px;
+    width: 1080px;
     height: 100px;
     display: inline-block;
     background: none;
@@ -523,8 +559,8 @@ legend {
 .pictures ul li {
     position:relative;
     float:left;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     padding:10px;
     list-style:none;
     margin-left: 100px 
@@ -537,8 +573,8 @@ legend {
 .pictures ul li a{
     display:block;
     overflow:hidden;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     margin-top:0px;
     margin-left:0px;
     border:0px solid rgba(0,0,0,0.7);
@@ -548,8 +584,8 @@ legend {
 
 .pictures ul li a:hover{
     position:absolute;
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     margin-top:-50px;
     margin-left:-90px;
     z-index:100;
@@ -562,16 +598,16 @@ legend {
 
 .pictures ul li a img{
     position:absolute;
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     z-index:20;
     transition-property:width,height,z-index;
     transition-duration:0.4s;
 }
 
 .pictures ul li a:hover img{
-    width:500px;
-    height:500px;
+    width:400px;
+    height:400px;
     z-index:100;
 }
 /* Page News */
@@ -626,11 +662,11 @@ h3
 }
 .schedule
 {
-    width:32%;
+    width:30%;
     height: 140px;
     margin:auto;
     display: inline-block;
-    margin-left: 12px;
+    margin-left: 25px;
 }
  
 /* Page Mention légales */
@@ -642,7 +678,7 @@ h3
 .legal_text {
     width: 60%;
     margin: 0 auto;
-    margin-top: -370px;
+    margin-top: -280px;
 }
 
 .legal_text p {
@@ -661,14 +697,14 @@ h3
 }
 
 .history {
-    margin-top: -400px;
+    margin-top: -280px;
 }
 
 .history_text {
     font-family: 'Cantata One', serif;
     color: #f2f1a8;
     width: 50%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .history_text ul{
@@ -690,7 +726,7 @@ h3
     display: block;
     margin: 0 auto;
     margin-left: 10px;
-    font-size: 20px;  
+    font-size: 18px;  
 }
 
 .history_img {
@@ -698,12 +734,12 @@ h3
     display: inline-block;;
     vertical-align: center;
     float: right;
-    margin-top: -410px;
+    margin-top: -370px;
 }
 
 .history_img img {
     width: 70%;
-    margin-left: 150px;
+    margin-left: 95px;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
 }
@@ -723,7 +759,7 @@ h3
 .marquee_img img {
     width: 70%;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 80px;
     border: 6px solid white;
     box-shadow:8px 8px 12px #aaa;
 }
@@ -734,6 +770,7 @@ h3
     margin-top: -500px;
     color: #f2f1a8;
     font-family: 'Cantata One', serif;
+    
 }
 
 .marquee_text h1 {
@@ -753,7 +790,7 @@ h3
 .marquee_text p {
     margin-top: -15px;
     font-family: 'Cantata One', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -762,7 +799,7 @@ h3
 
 .cont_foot {
     position: relative;
-    width: 1600px;
+    width: 1080px;
     height: 210px;
     margin-top: auto;
     bottom: 0px;
@@ -773,10 +810,11 @@ h3
     width: 500px;
     height: 74px;
     margin: 0 auto;
+    margin-left: 275px;
 }
 
 .bandeau_footer {
-    width: 1600px;
+    width: 1080px;
     height: 70px;
     margin: 0 auto;
     display: block;
@@ -805,7 +843,7 @@ h3
     position: absolute;
     background-image: url(images/ciel.png);
     height: 100%;
-    width: 1600px;
+    width: 1080px;
 }
 
 /* Contenu Footer */
@@ -816,7 +854,7 @@ h3
 }
 
 .contenu_gauche ul .titre_footer li {
-    margin-left: 135px;
+    margin-left: 35px;
     margin-bottom: -10px;
     font-size: 20px;
     width: 140px;
@@ -863,7 +901,7 @@ h3
 }
 
 .img_contenu_centre img {
-    margin-left: 750px;
+    margin-left: 475px;
     margin-top: -50px;
     opacity; 1;
 }
@@ -873,7 +911,7 @@ h3
 .contenu_droit {
     width: 50%;
     display: block;
-    margin-left: 900px;
+    margin-left: 400px;
     margin-top: -140px;
 }
 
@@ -893,7 +931,7 @@ h3
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
     opacity: 1;
     background-color: transparent;
 }
@@ -921,9 +959,9 @@ h3
 
 .contenu_bas {
     display: block;
-    width: 25%;
+    width: 50%;
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 350px;
 }
 
 h4 {
@@ -949,7 +987,7 @@ h4 a:hover {
 .mot_passe {
     position: absolute;
     display: block;
-    margin-top: 270px;
+    margin-top: 170px;
     font-size: 20px;
     width: 100%;
 }
@@ -978,3 +1016,4 @@ h4 a:hover {
     color: #f2f1a8;;
     font-family: 'Cantata One', serif;
 }
+
