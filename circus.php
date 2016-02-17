@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
+    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
+    <link rel="stylesheet" href="extra_small_resolution.css" media="screen and (max-width: 599px)"  >     
+    <link rel="shortcut icon" href="images/logo_wc.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
+    <title>About Wild Circus</title>
+    <meta name="description" content="For over 30 years, Wild Circus enchants young and old. In the largest city in Europe"/>    
+    </head>
+    
+    <body>
+        <div class="container">
+
+
 <?php 
 require("header.php")
 ?> 
@@ -25,12 +44,12 @@ require("header.php")
                         <li>+ a convoy of nearly one kilometer long.</li>
                     </ul>   
                 </div>
-                <div class="history_img"><img src="images/chapiteau_nuit.png"/></div>
+                <div class="history_img"><img src="images/chapiteau_nuit.png" alt="Access to marquee suitable for all"/></div>
             </div>
             
             <div class="marquee">
                 <div id="ancre_9"></div>
-                <div class="marquee_img"><img src="images/chapiteau_interieur.jpg"/></div>
+                <div class="marquee_img"><img src="images/chapiteau_interieur.jpg" alt="1000 benchs seats"/></div>
                 <div class="marquee_text">
                     <h1><b>Installation and marquee</b></h1>
                     <h2>Dimensions:</h2>
@@ -42,8 +61,8 @@ require("header.php")
                     <h2>Mounting:</h2>
                     <p>Assembly time needed: 7 hours. Mounting insured by us.</p>
                     <h2>Options:<h2>
-                    <p>Dance floor, lighting artists of entry ...
-                    Artistic events, extracts numbers of our show, clown, jugglers, stilt walkers ...</p>
+                    <p>Dance floor, lighting artists of entry ...</p>
+                    <p>Artistic events, extracts numbers of our show, clown, jugglers, stilt walkers ...</p>
                 </div>
             </div>
         </div>
@@ -51,4 +70,8 @@ require("header.php")
 
 <?php
 require("footer.php")
-?>    
+?> 
+            
+        </div>
+    </body>    
+</html>            

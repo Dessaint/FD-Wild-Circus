@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="utf-8" />
-    <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
-    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
-    <link rel="stylesheet" href="extra_small_resolution.css" media="all and (max-device-width: 599px)"  >    
-    <link rel="shortcut icon" href="images/logo_wc.ico">
-    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
-    
-    <title>Wild Circus</title>
-    </head>
-    
-    <body>
-        <div class="container">
+
             <header>
                 <div class="bandeau_top">
                     <div class="bandeau_res"><a href="private_access.php"><img src="images/private_acces.png" title="Private access"/></a></div>
                     <div class="cont_res">
-                        <h3>Follow us</h3>
+                        <h2>Follow us</h2>
                         <a href="https://www.facebook.com/wildcodeschool/" title="Facebook" target="_blank"><img src="images/facebook.png"/></a>
                         <a href="https://twitter.com/wildcodeschool" title="Twitter" target="_blank"><img src="images/twitter.png"/></a>
                         <a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw" title="Youtube" target="_blank"><img src="images/youtube.png"/></a>    

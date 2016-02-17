@@ -37,7 +37,3 @@
                 
             </footer>    
         
-            
-        </div>
-    </body>    
-</html>

@@ -1,3 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
+    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
+    <link rel="stylesheet" href="extra_small_resolution.css" media="screen and (max-width: 599px)"  >     
+    <link rel="shortcut icon" href="images/logo_wc.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
+    <title>Wild Circus schedule show</title>
+    <meta name="description" content="All dates of the shows of the year. All over the world, find the Wild Circus"/>    
+    </head>
+    
+    <body>
+        <div class="container">
+
+
+
 <?php 
 require("header.php")
 ?>    
@@ -5,7 +25,7 @@ require("header.php")
         
             <section>
                 <div class="cont_section">
-                    <div class="cont_bandeau"><img src="images/bandeau_schedule.jpg"/></div>
+                    <div class="cont_bandeau"><img src="images/bandeau_schedule.jpg" alt="Wild Circus schedule presentation"/></div>
                     <div class="texte_bandeau_spec"><h1>Schedule of events 2016</h1></div>   
                 </div>
                 <div class="cont_contenu">
@@ -56,4 +76,7 @@ $req->closeCursor();
 <?php
 require("footer.php")
 ?>    
-            
+
+        </div>
+    </body>    
+</html>            

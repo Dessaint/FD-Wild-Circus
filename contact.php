@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="images/logo_wc.ico">
     <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
-    
-    <title>Wild Circus</title>
+    <title>Wild Circus contact form</title>
+    <meta name="description" content="You have a question? You want to book! And even become partner"/>    
     </head>
     
     <body>
@@ -79,7 +79,7 @@ require("header.php")
                             <div class="info_contact">
                             <p>Like you cant imagine, we are always on the road. So please, complete this form to take contact with us.</p>
                             </div>
-                            <div class="img_contact"><img src="images/camion_cirque.png"/></div>   
+                            <div class="img_contact"><img src="images/camion_cirque.png" alt="Team Wild Circus is perpetually on the road"/></div>   
                         </div>
                     </aside>
                 </div>    

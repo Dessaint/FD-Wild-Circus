@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="middle_resolution.css" media="screen and (max-width: 1599px)"  >
+    <link rel="stylesheet" href="small_resolution.css" media="screen and (max-width: 1079px)"  > 
+    <link rel="stylesheet" href="extra_small_resolution.css" media="screen and (max-width: 599px)"  >     
+    <link rel="shortcut icon" href="images/logo_wc.ico">
+    <link href='https://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Emilys+Candy' rel='stylesheet' type='text/css'>    
+    <title>Wild Circus artits news</title>
+    <meta name="description" content="An information base on Wild Circus and the circus in general"/>    
+    </head>
+    
+    <body>
+        <div class="container">
+
+
 <?php 
 require("header.php")
 ?>    
@@ -5,7 +24,7 @@ require("header.php")
         
     <section>
         <div clas="cont_section">
-                    <div class="cont_bandeau"><img src="images/bandeau_news.jpg"/></div>
+                    <div class="cont_bandeau"><img src="images/bandeau_news.jpg" alt="Wild Circus news presentation"/></div>
                     <div class="texte_bandeau_spec"><h1>News</h1></div>   
         </div>
         
@@ -52,4 +71,7 @@ $req->closeCursor();
 <?php
 require("footer.php")
 ?>    
-            
+
+        </div>
+    </body>    
+</html>            

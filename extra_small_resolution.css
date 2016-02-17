@@ -1,0 +1,1104 @@
+body {
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #0e0b2a;
+}
+
+container {
+    width: 400px;
+    margin: 0 auto;   
+}
+
+/* Header */
+.bandeau_top {
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+}
+
+.bandeau_res {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-left: 7px;
+    width : 190px;
+    height: 35px;
+    display: inline-block;
+}
+
+.bandeau_res a {
+    text-decoration: none;
+    color: #f2f1a8;
+    width: 65%;
+    height: 65%;
+    margin-left: 0px;
+}
+
+
+.cont_res {
+    display: inline-block;
+    position:absolute;
+    height: 40px;
+    margin-top: -110px;
+    margin-left: 210px;
+}
+
+.cont_res a {
+    margin-left: 105px;
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+}
+
+.cont_res h2 {
+    background-color: transparent;
+    border: none;
+    margin-bottom: -40px;
+    margin-left: 95px;
+}
+
+header {
+    width:400px;
+    background-image: url(images/ciel.png); 
+}
+
+.logo {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo img {
+    width: auto;
+    margin: 0 auto;
+    margin-left: -20px;
+}
+
+/* Navbar */
+
+navbar {
+    width: 400px;
+    height: 190px;
+    margin: 0 auto;
+    display: block;
+    border-top: 4px solid #f2f1a8;
+    margin-left: 0px;
+}
+
+navbar a {
+    text-decoration: none;
+    color: #f2f1a8;
+    width: 400px;
+    margin: 0 auto;
+}
+
+navbar a:hover {
+    text-shadow: 6px 6px 10px white;
+}
+
+navbar a:active {
+    text-decoration: underline;   
+}
+
+ul {
+    margin-top: 0px;
+    margin-left: -40px;
+    padding-top: -20px;
+    width: 400px;
+    height: 40px;
+    display: block;
+    background: #0e0b2a;
+    opacity: 0.7
+        
+}
+
+li {
+    width:auto;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: 'Cantata One', serif;
+    text-align: center;
+}
+
+
+
+a:hover {
+    color: #e3e13b;
+}
+
+/* Section Générale */
+.bloc_page  {
+    position: absolute;
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    background-image:url(images/smoke-effect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: #f2f1a8;
+    text-align: center;
+}
+
+section {
+    height: auto;
+    width: 400px;
+    
+}
+
+/* Section bandeau*/
+
+.section_bandeau {
+  position: relative;  
+}
+
+.cont_bandeau {
+    position:absolute;
+    display: block;  
+    width: 599px;
+}
+
+.cont_bandeau img {
+    width: 400px;
+}
+
+.texte_bandeau {
+    position :absolute;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 13px;
+    margin-top: 70px;
+    margin-left: -10px;
+    padding: 10px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_bandeau_spec {
+    position :absolute;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: -10px;
+    padding: 10px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_bandeau_spec h1{
+    border: 5px solid #0e0b2a;
+    border-radius: 30px;
+    background: white;
+    padding : 10px;
+    color: #0e0b2a;
+    text-align: center;
+}
+
+
+.texte_bandeau h1 {
+    border: 5px solid #0e0b2a;
+    border-radius: 30px;
+    background: white;
+    width : 400px
+    padding : 10px;
+    color: #0e0b2a;
+    text-align: center;
+}
+
+/* Page home */
+
+.cont_contenu {
+    padding-top: 180px;
+    position: relative;
+    display: block;
+    width: 400px;
+    height: auto;
+    padding-bottom: 30px;
+   
+}
+
+.cont_contenu_mp {
+    padding-top: 200px;
+    position: relative;
+    display: block;
+    width: 599px;
+    height: 560px;
+}
+
+.astuce_clown {
+    width: 100px;
+    height: 100px;
+    display: block;
+    top: -60px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 130px;
+    opacity: 0.9;
+}
+
+.astuce_clown img {
+     width: 125px;
+    height: 125px;
+}
+
+.first_performance {
+    width: 350px;
+    height: 350px;
+    margin-left: 15px;
+    display: block;
+    border: 6px solid white;  
+}
+
+.first_performance img {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    box-shadow:8px 8px 12px white;
+}
+
+.second_performance {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: -25px;
+    margin-left: 15px;
+    display: block;
+    border: 6px solid white;
+    box-shadow:8px 8px 12px white;
+}
+
+.second_performance img {
+    width: 350px;
+    height: 350px;
+}
+
+.third_performance {
+    width: 350px;
+    height: 350px;    
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-left: 10px;
+    border: 6px solid white;
+    box-shadow:8px 8px 12px white;
+}
+
+.third_performance img {
+    width: 350px;
+    height: 350px;
+}
+
+.performance_text {
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 30px;
+    background: white;
+    border: 0px solid white;
+    color: #0e0b2a;
+    font-size: 19px;
+    font-family: 'Cantata One', serif;
+    margin-top: -30px;
+    text-align: center;
+}
+
+/* Pages performance*/
+
+.img_performance {
+    width: 288px;
+    height: 191px;
+    border: 6px solid white;
+    display :inline-block;
+    box-shadow:8px 8px 12px #aaa;
+    margin-left: 45px;
+}
+
+.img_performance img {
+    width: 288px;
+    height: 191px;
+}
+
+.text_performance {
+    display: inline-block;
+    width: 258px;
+    height: 171px;
+    background: white;
+    border: 6px solid #0e0b2a;
+    font-size: 13px;
+    font-family: 'Cantata One', serif;
+    color: #0e0b2a;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-top: 10px;
+    vertical-align: center;
+    padding: 10px;
+}
+
+.text_performance p a {
+    text-decoration: none;
+}
+
+.text_performance img {
+    margin-top: -10px;
+    display: block;
+}
+
+.artist_performance {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 120px;
+    margin-left: -10px;
+    margin-top: 105px;
+    top: -20px;
+}
+
+.artist_performance img { 
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: -70px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.scroll {
+    width: 1600px;
+    margin-top: -40px ;
+    margin-left: 132px;
+}
+
+.next_forward {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.next {
+   display: inline-block;
+}
+
+.forward {
+   display: inline-block; 
+}
+
+/* Page show */
+
+.cont_section_bis_1{
+    margin-top: -10px;
+}
+
+.cont_section_bis_2 {
+    margin-top: 50px;
+    height: 350px;
+}
+
+.cont_section_bis_3 {
+    margin-top: -330px;
+    height: 350px;
+}
+
+.cont_section_bis_4 {
+    margin-top: 380px;
+    padding-bottom: 30px;
+    height: 500px;
+}
+
+.cont_section_bis_4 .cont_contenu {
+    padding-bottom: 70px;
+}
+
+. cont_section_bis .cont_section_bis_4 .cont_contenu  {
+    height: 550px;
+}
+
+.cont_section_bis {
+    height: 600px;
+    margin-top: 0px;
+    display: block;
+}
+
+.cont_section_bis .cont_contenu {
+    padding-top: 0px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.cont_section_bis .cont_contenu .img_performance  {
+   margin-bottom: 25px;
+}
+
+.cont_section_bis .cont_contenu .text_performance {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.cont_section_bis .cont_contenu .artist_performance {
+    top: -20px;
+    margin-top: 80px;
+    
+}
+
+.texte_show {
+    margin-top: -35px;
+    height: 35px;
+    width: 288px;
+    position: absolute;
+    background: white;
+    font-size: 13px;
+    font-family: 'Cantata One', serif;
+}
+
+.texte_show h1 {
+    margin-top: 5px;
+    color: #0e0b2a;
+}
+/* Page artist */
+
+.fiche_artist {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+.img_artist {
+    height: 50%;
+}
+
+.img_artist img {
+    width: 70%;
+    height: 70%;
+    margin-left: 80px;
+}
+
+.text_artist {
+    background: white;
+    width: 150px;
+    height: 40%;
+    display:inline-block;
+    margin-top: 0px;
+    margin-left: 112px;
+    border: 6px solid #0e0b2a;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cantata One', serif;
+    font-size: 13px; 
+    color: #0e0b2a; 
+}
+
+.text_artist img{
+    margin-bottom: -10px;
+}
+
+
+/* Page contact */
+
+form {
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+    width: 80%;
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+
+input {
+    width: 250px;
+    
+}
+
+label {
+    display: block;
+    width: 400px;
+    float: left;
+    font-size: 16px;  
+}
+
+fieldset {
+    font-size: 19px;
+    background: #0e0b2a;
+    width: 80%;
+}
+
+fieldset span {
+    font-style:italic;
+    font-size: 17px;
+}
+
+legend {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#prefer {
+    width: 0px;
+}
+
+#prefer1 {
+    width: 0px;
+    margin-left: 40px;
+}
+
+.red {
+    color: red;
+}
+
+/* Contact info */
+
+.cont_contact {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.img_contact {
+    display: inline-block;
+    width: auto;
+    height: 200px;
+    margin-left: 200px;   
+}
+
+.info_contact {
+    width: 400px;
+    height: 125px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: #f2f1a8;
+    Background: #0e0b2a;
+    border: 2px solid white;
+    font-family: 'Cantata One', serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.info_contact p {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+/* Page gallery */
+
+.pictures {
+    display: inline-block;
+    position: relative;
+    margin-top: -80px;
+    margin-left: -200px;
+    height:80%;
+    width: 400px;
+}
+
+.pictures ul {
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 10px;
+    width: 400px;
+    height: 100px;
+    display: block;
+    background: none;
+    opacity: 1;
+}
+
+.pictures ul li {
+    position:relative;
+    float:left;
+    width:200px;
+    height:200px;
+    padding:10px;
+    list-style:none;
+    margin-left: 100px 
+}
+
+.pictures ul li:nth-child(4n){
+    clear:left;
+}
+
+.pictures ul li a{
+    display: block;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+    margin-top:0px;
+    margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+}
+
+.pictures ul li a:hover{
+    position:absolute;
+    width:300px;
+    height:300px;
+    margin-top:-10px;
+    margin-left:50px;
+    z-index:100;
+    border:6px solid white;
+}
+
+
+.pictures ul li a img{
+    position:absolute;
+    width:200px;
+    height:200px;
+    z-index:20;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
+}
+
+.pictures ul li a:hover img{
+    width:300px;
+    height:300px;
+    z-index:100;
+    margin-left: -150px;
+}
+/* Page News */
+
+.cont_news {
+    margin-top: -70px;
+}
+
+h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:#0e0b2a;
+    color: #f2f1a8;
+    font-size:0.9em;
+    margin-bottom:0px;
+    border: 2px solid white;
+    font-family: 'Cantata One', serif;
+}
+
+.news p
+{
+    background-color:#f2f1a8;
+    margin-top:0px;
+    font-family: 'Cantata One', serif;
+    border: 2px solid white;
+    color: #0e0b2a;
+}
+.news
+{
+    width:80%;
+    margin:auto;
+}
+
+
+/* Page Schedule */
+
+.cont_schedule {
+    margin-top: -70px;
+    width: 100%;
+    text-align: center;
+}
+
+.schedule p
+{
+    background-color:#f2f1a8;
+    margin-top:0px;
+    font-family: 'Cantata One', serif;
+    border: 2px solid white;
+    color: #0e0b2a;
+}
+.schedule
+{
+    width:70%;
+    height: 140px;
+    margin:auto;
+    display: block;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+ 
+/* Page Mention légales */
+
+#cont_section_leg .texte_bandeau {
+    margin-top: -20px;
+}
+
+.legal_text {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+
+.legal_text p {
+    font-family: 'Cantata One', serif;
+    color: #f2f1a8;
+    font-size: 20px;
+}
+
+/* Page Circus */
+
+    /* History */
+
+.history h1 {
+    margin-left: 30px;
+    text-decoration: underline;
+    width: 250px;
+}
+
+.history {
+    margin-top: -120px;
+    margin-left: 40px;
+}
+
+.history_text {
+    font-family: 'Cantata One', serif;
+    color: #f2f1a8;
+    width: 90%;
+    font-size: 18px;
+}
+
+.history_text ul{
+    margin-top: -10px;
+    margin-left: 0px;
+    padding-top: 0px;
+    width: auto;
+    height: 350px;
+    display: block;
+    background: transparent;
+    opacity: 1;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.history_text ul li {
+    width: 350px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-left: -30px;
+    font-size: 18px;  
+    text-align: left;
+}
+
+.history_img {
+    width: 50%;   
+    display: block;;
+    vertical-align: center;
+    float: right;
+    margin-top: -120px;
+    margin-left: -160px;
+}
+
+.history_img img {
+    width: 90%;
+    margin-left: -95px;
+    margin-top: 20px;
+    border: 6px solid white;
+    box-shadow:8px 8px 12px #aaa;
+}
+
+/* Installation and marquee */
+
+
+.marquee {
+    margin-top:370px;
+    width: 400px;
+    height: 800px;
+    margin-left: -105px;
+    
+}
+
+.marquee_img {
+    width: 60%;
+    height: 150px;
+    margin-left: 190px;
+    margin-top: -180px;
+}
+
+.marquee_img img {
+    width: 75%;
+    margin-top: -400px;
+    margin-left: 30px;
+    border: 6px solid white;
+    box-shadow:8px 8px 12px #aaa;
+}
+
+.marquee_text {
+    width: 90%;
+    height: 700px;
+    margin-top: -120px;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+    font-size: 18px; 
+}
+
+.marquee_text h1 {
+    margin-left: 80px;
+    width: 370px;
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+}
+
+.marquee_text h2 {
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+    margin-left: 80px;
+}
+
+.marquee_text p {
+    margin-top: -15px;
+    width: 90%;
+    margin-left: 90px;
+    font-family: 'Cantata One', serif;
+    font-size: 18px;
+}
+
+
+/* Footer */
+/* Forme du footer */
+
+.cont_foot {
+    position: relative;
+    width: 400px;
+    height: 510px;
+    margin-top: auto;
+    bottom: 0px;
+}
+
+.cont_footer_bouton {
+    position: relative;
+    width: 400px;
+    height: 74px;
+    margin: 0 auto;
+    margin-left: 75px;
+}
+
+.bandeau_footer {
+    width: 400px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 4px solid #f2f1a8;
+    background: #0e0b2a;
+    opacity: 0.7;
+}
+
+.bandeau_footer li {
+    color: #f2f1a8;
+    margin-left: 35px;
+    margin-top: -5px;
+    font-size: 25px; 
+    display: inline-block;
+}
+.bandeau_footer a {
+    text-decoration: none;
+    color: #f2f1a8;
+}
+
+.bandeau_footer ul {
+    margin-top: 0px;
+    margin-left: -80px;
+}
+
+.contenu_footer {
+    position: absolute;
+    background-image: url(images/ciel.png);
+    height: 100%;
+    width: 400px;
+}
+
+/* Contenu Footer */
+    /* Contenu footer gauche */
+
+.contenu_gauche {
+    width: 50%;
+}
+
+.contenu_gauche ul .titre_footer li {
+    margin-left: -35px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    width: 200px;
+    background-color: #f2f1a8;
+    color: #0e0b2a;
+    padding: 5px;
+    box-shadow:2px 2px 4px #f2f1a8;
+}
+
+.contenu_gauche ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 90px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.contenu_gauche ul li {
+    color: #f2f1a8;
+    display: block;
+    font-size: 15px;
+    width: 100%; 
+    margin-left: -155px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.contenu_gauche ul li a {
+    text-decoration: none; 
+    color: #f2f1a8; 
+}
+
+.contenu_gauche ul li a:hover {
+    color: #e3e13b;   
+}
+
+/* Contenu footer centre */
+
+.contenu_centre {
+    display: block; 
+    width: 100px;
+}
+
+.img_contenu_centre img {
+    margin-left: 145px;
+    margin-top: 250px;
+    opacity; 1;
+}
+
+/* Contenu footer droit */
+
+.contenu_droit {
+    width: 50%;
+    display: block;
+    margin-left: -80px;
+    margin-top: -289px;
+}
+
+.contenu_droit ul .titre_footer li {
+    margin-left: -55px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    width: 180px;
+    background-color: #f2f1a8;
+    color: #0e0b2a;
+    padding: 5px;
+    box-shadow: 2px 2px 4px #f2f1a8;
+}
+
+.contenu_droit ul {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 200px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.contenu_droit ul li {
+    color: #f2f1a8;
+    display: block;
+    font-size: 15px;
+    width: 100%; 
+    margin-left: -275px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.contenu_droit ul li a {
+    text-decoration: none; 
+    color: #f2f1a8; 
+}
+
+.contenu_droit ul li a:hover {
+    color: #e3e13b;   
+}
+
+/* Contenu footer bas */
+
+.contenu_bas {
+    display: block;
+    width: 100%;
+    margin-top: 260px;
+    margin-left: 5px;
+}
+
+h4 {
+    color: #f2f1a8;
+}
+
+h4 a {
+    text-decoration: none; 
+    color: #e3e13b; 
+}
+
+h4 a:hover {
+    color: blue;   
+}
+
+/* Page private access*/
+.cont_private {
+    margin-left: 30px;
+}
+
+#private_access {
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.mot_passe {
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 25px;
+    font-size: 20px;
+    width: 350px;
+    height: 130px;
+}
+
+.mot_passe label {
+    display: block;
+    width: 110px;
+    float: left;
+    font-size: 17px; 
+    color: #f2f1a8;
+    font-family: 'Cantata One', serif;
+}
+
+.bouton_perso {
+    background-image: url(images/ciel.png);
+    color: #f2f1a8; 
+    font-family: 'Cantata One', serif; 
+    border: 2px solid #f2f1a8; 
+    width: 200px;
+    border-radius: 20px;
+    font-size: 17px;
+    box-shadow:4px 4px 8px #f2f1a8;
+}
+
+.mot_passe p {
+    color: #f2f1a8;;
+    font-family: 'Cantata One', serif;
+}

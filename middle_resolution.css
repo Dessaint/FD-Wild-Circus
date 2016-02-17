@@ -8,8 +8,6 @@ body {
 container {
     width: 1080px;
     margin: 0 auto;
-    
-    
 }
 
 /* Header */
@@ -50,7 +48,7 @@ container {
     margin-left: 15px;
 }
 
-.cont_res h3 {
+.cont_res h2 {
     background-color: transparent;
     border: none;
 }
