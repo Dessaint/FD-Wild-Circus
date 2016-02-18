@@ -505,8 +505,8 @@ legend {
 .pictures {
     display: inline-block;
     position: relative;
-    margin-top: 310px;
-    height: auto;
+    margin-top: -220px;
+    height: 650px;
 }
 
 .pictures ul {

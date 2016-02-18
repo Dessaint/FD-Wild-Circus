@@ -485,7 +485,7 @@ legend {
 }
 
 #prefer {
-    width: 0px;
+    width: 100px;
 }
 
 #prefer1 {
@@ -539,8 +539,8 @@ legend {
 .pictures {
     display: inline-block;
     position: relative;
-    margin-top: 245px;
-    height: auto;
+    margin-top: -120px;
+    height: 500px;
 }
 
 .pictures ul {
